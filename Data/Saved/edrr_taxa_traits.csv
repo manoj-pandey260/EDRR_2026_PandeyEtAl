@@ -1,0 +1,321 @@
+SN,Species,Origin,Feeding_Guild
+1,Alniphagus aspericollis,Native,bark beetle
+2,Ambrosiodmus devexulus,Native,ambrosia beetle
+3,Ambrosiodmus lecontei,Native,ambrosia beetle
+4,Ambrosiodmus minor,Introduced,ambrosia beetle
+5,Ambrosiodmus obliquus,Native,ambrosia beetle
+6,Ambrosiodmus rubricollis,Introduced,ambrosia beetle
+7,Ambrosiodmus sp.,NA,NA
+8,Ambrosiodmus tachygraphus,Native,ambrosia beetle
+9,Ambrosiophilus atratus,Introduced,ambrosia beetle
+10,Ambrosiophilus nodulosis,NA,NA
+11,Anisandrus dispar,Introduced,ambrosia beetle
+12,Anisandrus maiche,Introduced,ambrosia beetle
+13,Anisandrus obesus,Native,ambrosia beetle
+14,Anisandrus sayi,Native,ambrosia beetle
+15,Cactopinus rhois,Native,twig beetle
+16,Carphoborus bifurcus,Native,twig beetle
+17,Carphoborus blaisdelli,Native,twig beetle
+18,Carphoborus ponderosae,Native,twig beetle
+19,Carphoborus simplex,Native,twig beetle
+20,Carphoborus sp,NA,NA
+21,Carphoborus vandykei,Native,twig beetle
+22,Chaetophloeus heterodoxus,Native,twig beetle
+23,Chaetophloeus hystrix,Native,twig beetle
+24,Chaetophloeus penicillatus,Native,twig beetle
+25,Chramesus,NA,NA
+26,Chramesus chapuisi,Native,bark beetle
+27,Chramesus hicoriae,Native,twig beetle
+28,Cnesinus strigicollis,Native,twig beetle
+29,Cnestus mutilatus,Introduced,ambrosia beetle
+30,Coccotrypes,NA,NA
+31,Coccotrypes carpophagus,Native,Other
+32,Coccotrypes dactyliperda,Introduced,Other
+33,Conophthorus coniperda,Native,Other
+34,Conophthorus ponderosae,Native,Other
+35,Conophthorus radiatae,Native,Other
+36,Conophthorus resinosae,Native,Other
+37,Conophthorus sp.,NA,NA
+38,Coptoborus pseudotenuis,Introduced,ambrosia beetle
+39,Corthylus columbianus,Native,ambrosia beetle
+40,Corthylus papulans,Native,ambrosia beetle
+41,Corthylus punctatissimus,Native,ambrosia beetle
+42,Corthylus spinifer,NA,NA
+43,Cryphalus,NA,NA
+44,Cryphalus pubescens,Native,bark beetle
+45,Cryphalus ruficollis,Native,bark beetle
+46,Cryptocarenus heveae,Native,twig beetle
+47,Cryptocarenus seriatus,Native,twig beetle
+48,Crypturgus,NA,NA
+49,Crypturgus alutaceus,Native,bark beetle
+50,Crypturgus borealis,Native,bark beetle
+51,Crypturgus pusillus,Introduced,bark beetle
+52,Cyclorhipidion bodoanum,Introduced,ambrosia beetle
+53,Cyclorhipidion distinguendum,Introduced,ambrosia beetle
+54,Cyclorhipidion fukiense,NA,NA
+55,Cyclorhipidion inarmatum,Introduced,ambrosia beetle
+56,Cyclorhipidion pelliculosum,Introduced,ambrosia beetle
+57,Dactylotrypes longicollis,Introduced,Other
+58,Dendrocranulus carbonarius,Native,Other
+59,Dendrocranulus cucurbitae,Native,Other
+60,Dendroctonus brevicomis,Native,bark beetle
+61,Dendroctonus frontalis,Native,bark beetle
+62,Dendroctonus murrayanae,Native,bark beetle
+63,Dendroctonus ponderosae,Native,bark beetle
+64,Dendroctonus pseudotsugae,Native,bark beetle
+65,Dendroctonus rufipennis,Native,bark beetle
+66,Dendroctonus simplex,Native,bark beetle
+67,Dendroctonus terebrans,Native,bark beetle
+68,Dendroctonus valens,Native,bark beetle
+69,Dolurgus pumilus,Native,bark beetle
+70,Dryocoetes,NA,NA
+71,Dryocoetes affaber,Native,bark beetle
+72,Dryocoetes autographus,Introduced,bark beetle
+73,Dryocoetes betulae,Native,bark beetle
+74,Dryocoetes caryi,Native,bark beetle
+75,Dryocoetes confusus,Native,bark beetle
+76,Dryocoetes granicollis,Native,bark beetle
+77,Dryoxylon onoharaense,Introduced,ambrosia beetle
+78,Euwallacea denticulatus,NA,NA
+79,Euwallacea fornicatus,Introduced,ambrosia beetle
+80,Euwallacea interjectus,Introduced,ambrosia beetle
+81,Euwallacea similis,Introduced,ambrosia beetle
+82,Euwallacea validus,Introduced,ambrosia beetle
+83,Gnathotrichus denticulatus,Native,ambrosia beetle
+84,Gnathotrichus materiarius,Native,ambrosia beetle
+85,Gnathotrichus nimifrons,Native,ambrosia beetle
+86,Gnathotrichus pilosus,Native,ambrosia beetle
+87,Gnathotrichus retusus,Native,ambrosia beetle
+88,Gnathotrichus sulcatus,Native,ambrosia beetle
+89,Hylastes,NA,NA
+90,Hylastes fulgidus,Native,bark beetle
+91,Hylastes gracilis,Native,bark beetle
+92,Hylastes longicollis,Native,bark beetle
+93,Hylastes macer,Native,bark beetle
+94,Hylastes nigrinus,Native,bark beetle
+95,Hylastes opacus,Introduced,bark beetle
+96,Hylastes porculus,Native,bark beetle
+97,Hylastes ruber,Native,bark beetle
+98,Hylastes salebrosus,Native,bark beetle
+99,Hylastes subopacus,Native,bark beetle
+100,Hylastes tenuis,Native,bark beetle
+101,Hylastinus obscurus,Introduced,bark beetle
+102,Hylesinus,NA,NA
+103,Hylesinus aculeatus,Native,bark beetle
+104,Hylesinus californicus,Native,bark beetle
+105,Hylesinus criddlei,Native,bark beetle
+106,Hylesinus fasciatus,Native,bark beetle
+107,Hylesinus oregonus,Native,bark beetle
+108,Hylesinus pruinosus,Native,bark beetle
+109,Hylocurus,NA,NA
+110,Hylocurus biconcavus,Native,NA
+111,Hylocurus bicornus,Native,twig beetle
+112,Hylocurus binodatus,Native,twig beetle
+113,Hylocurus flaglerensis,Native,NA
+114,Hylocurus harnedi,Native,twig beetle
+115,Hylocurus hirtellus,Native,twig beetle
+116,Hylocurus langstoni,Native,twig beetle
+117,Hylocurus rudis,Native,twig beetle
+118,Hylocurus schwarzi,Native,NA
+119,Hylocurus spadix,Native,twig beetle
+120,Hylocurus torosus,NA,NA
+121,Hylurgopinus rufipes,Native,bark beetle
+122,Hylurgops palliatus,Introduced,bark beetle
+123,Hylurgops pinifex,Native,bark beetle
+124,Hylurgops porosus,Native,bark beetle
+125,Hylurgops reticulatus,Native,bark beetle
+126,Hylurgops rugipennis,Native,bark beetle
+127,Hylurgops rugipennis pinifex,Native,bark beetle
+128,Hylurgops rugipennis rugipennis,Native,bark beetle
+129,Hylurgops subcostulatus,Native,bark beetle
+130,Hylurgus ligniperda,Introduced,bark beetle
+131,Hypothenemus,NA,NA
+132,Hypothenemus birmanus,Native,twig beetle
+133,Hypothenemus crudiae,Native,twig beetle
+134,Hypothenemus dissimilis,Native,ambrosia beetle
+135,Hypothenemus erectus,Introduced,twig beetle
+136,Hypothenemus eruditus,Native,twig beetle
+137,Hypothenemus miles,Native,twig beetle
+138,Hypothenemus rotundicollis,Native,bark beetle
+139,Hypothenemus seriatus,Native,twig beetle
+140,Ips avulsus,Native,bark beetle
+141,Ips borealis,Native,bark beetle
+142,Ips borealis borealis,Native,bark beetle
+143,Ips borealis lanieri,Native,bark beetle
+144,Ips calligraphus,Native,bark beetle
+145,Ips confusus,Native,bark beetle
+146,Ips grandicollis,Native,bark beetle
+147,Ips hunteri,Native,bark beetle
+148,Ips integer,Native,bark beetle
+149,Ips montanus,Native,bark beetle
+150,Ips paraconfusus,Native,bark beetle
+151,Ips perroti,Native,bark beetle
+152,Ips perturbatus,Native,bark beetle
+153,Ips pilifrons pilifrons,Native,bark beetle
+154,Ips pilifrons utahensis,Native,bark beetle
+155,Ips pini,Native,bark beetle
+156,Ips plastographus,Native,bark beetle
+157,Ips tridens engelmanni,Native,bark beetle
+158,Lymantor decipiens,Native,twig beetle
+159,Micracis,NA,NA
+160,Micracis suturalis,Native,twig beetle
+161,Micracis swainei,Native,twig beetle
+162,Micracisella,NA,NA
+163,Micracisella nanula,Native,twig beetle
+164,Micracisella opacicollis,Native,twig beetle
+165,Monarthrum dentigerum,Native,ambrosia beetle
+166,Monarthrum fasciatum,Native,ambrosia beetle
+167,Monarthrum mali,Native,ambrosia beetle
+168,Monarthrum scutellare,Native,ambrosia beetle
+169,Orthotomicus caelatus,Native,bark beetle
+170,Orthotomicus erosus,Introduced,bark beetle
+171,Orthotomicus latidens,Native,bark beetle
+172,Orthotomicus spinifer,Native,bark beetle
+173,Pachysquamus subcostulatus,Native,bark beetle
+174,Phloeosinus,NA,NA
+175,Phloeosinus canadensis,Native,bark beetle
+176,Phloeosinus cristatus,Native,bark beetle
+177,Phloeosinus cupressi,Native,bark beetle
+178,Phloeosinus dentatus,Native,bark beetle
+179,Phloeosinus furnissi,Native,bark beetle
+180,Phloeosinus hoferi,Native,bark beetle
+181,Phloeosinus hoppingi,Native,bark beetle
+182,Phloeosinus pini,Native,bark beetle
+183,Phloeosinus punctatus,Native,bark beetle
+184,Phloeosinus scopulorum neomexicanus,Native,bark beetle
+185,Phloeosinus scopulorum s.str.,NA,NA
+186,Phloeosinus sequoiae,Native,bark beetle
+187,Phloeosinus serratus,Native,bark beetle
+188,Phloeosinus taxodii taxodii,Native,bark beetle
+189,Phloeosinus vandykei,Native,bark beetle
+190,Phloeotribus,NA,NA
+191,Phloeotribus dentifrons,Native,twig beetle
+192,Phloeotribus frontalis,Native,twig beetle
+193,Phloeotribus lecontei,Native,twig beetle
+194,Phloeotribus liminaris,Native,bark beetle
+195,Phloeotribus piceae,Native,bark beetle
+196,Phloeotribus texanus,Native,bark beetle
+197,Pityoborus,NA,NA
+198,Pityoborus comatus,Native,ambrosia beetle
+199,Pityogenes,NA,NA
+200,Pityogenes bidentatus,Introduced,twig beetle
+201,Pityogenes carinulatus,Native,twig beetle
+202,Pityogenes fossifrons,Native,twig beetle
+203,Pityogenes hopkinsi,Native,twig beetle
+204,Pityogenes knechteli,Native,twig beetle
+205,Pityogenes meridianus,Native,twig beetle
+206,Pityogenes plagiatus,Native,twig beetle
+207,Pityokteines,NA,NA
+208,Pityokteines elegans,Native,bark beetle
+209,Pityokteines minutus,Native,bark beetle
+210,Pityokteines ornatus,Native,bark beetle
+211,Pityokteines sparsus,Native,bark beetle
+212,Pityophthorus,NA,NA
+213,Pityophthorus annectens,Native,twig beetle
+214,Pityophthorus arcanus,Native,twig beetle
+215,Pityophthorus cariniceps,Native,twig beetle
+216,Pityophthorus confusus,Native,bark beetle
+217,Pityophthorus consimilis,Native,twig beetle
+218,Pityophthorus crinalis,Native,twig beetle
+219,Pityophthorus juglandis,Native,twig beetle
+220,Pityophthorus lautus,Native,twig beetle
+221,Pityophthorus liquidambarus,Native,bark beetle
+222,Pityophthorus opaculus,Native,twig beetle
+223,Pityophthorus puberulus,Native,twig beetle
+224,Pityophthorus pulicarius,Native,twig beetle
+225,Pityophthorus pullus,Native,twig beetle
+226,Pityophthorus spp,NA,NA
+227,Polygraphus convexifrons,Native,bark beetle
+228,Polygraphus rufipennis,Native,bark beetle
+229,Premnobius cavipennis,Native,ambrosia beetle
+230,Premnobius spp,NA,NA
+231,Pseudips concinnus,Native,bark beetle
+232,Pseudips mexicanus,NA,bark beetle
+233,Pseudohylesinus dispar,Native,bark beetle
+234,Pseudohylesinus granulatus,Native,bark beetle
+235,Pseudohylesinus nebulosus,Native,bark beetle
+236,Pseudohylesinus nebulosus nebulosus,Native,bark beetle
+237,Pseudohylesinus pini,Native,bark beetle
+238,Pseudohylesinus sericeus,Native,bark beetle
+239,Pseudohylesinus sitchensis,Native,bark beetle
+240,Pseudohylesinus tsugae,Native,bark beetle
+241,Pseudopityophthorus,NA,NA
+242,Pseudopityophthorus agrifoliae,Native,bark beetle
+243,Pseudopityophthorus asperulus,Native,bark beetle
+244,Pseudopityophthorus fagi,Native,bark beetle
+245,Pseudopityophthorus minutissimus,Native,bark beetle
+246,Pseudopityophthorus pruinosus,Native,bark beetle
+247,Pseudopityophthorus pubipennis,Native,bark beetle
+248,Pseudothysanoes,NA,NA
+249,Pseudothysanoes dislocatus,Native,twig beetle
+250,Pseudothysanoes rigidus,Native,twig beetle
+251,Pycnarthrum hispidum,Native,bark beetle
+252,Scierus annectens,Native,bark beetle
+253,Scierus pubescens,Native,bark beetle
+254,Scolytodes schwarzi,NA,NA
+255,Scolytogenes jalapae,NA,NA
+256,Scolytogenes sp.,NA,NA
+257,Scolytus,NA,NA
+258,Scolytus fagi,Native,bark beetle
+259,Scolytus laricis,Native,bark beetle
+260,Scolytus monticolae,Native,bark beetle
+261,Scolytus multistriatus,Introduced,bark beetle
+262,Scolytus muticus,Native,bark beetle
+263,Scolytus opacus,Native,bark beetle
+264,Scolytus oregoni,Native,bark beetle
+265,Scolytus piceae,Native,bark beetle
+266,Scolytus praeceps,Native,bark beetle
+267,Scolytus quadrispinosus,Native,bark beetle
+268,Scolytus reflexus,Native,bark beetle
+269,Scolytus robustus,Native,bark beetle
+270,Scolytus rugulosus,Introduced,bark beetle
+271,Scolytus schevyrewi,Introduced,bark beetle
+272,Scolytus tsugae,Native,bark beetle
+273,Scolytus unispinosus,Native,bark beetle
+274,Scolytus ventralis,Native,bark beetle
+275,Stenoclyptus sulcatus,Native,twig beetle
+276,Theoborus ricini,NA,ambrosia beetle
+277,Thysanoes,NA,NA
+278,Thysanoes fimbricornis,Native,bark beetle
+279,Tomicus piniperda,Introduced,bark beetle
+280,Trischidias,NA,NA
+281,Trypodendron,NA,NA
+282,Trypodendron betulae,Native,ambrosia beetle
+283,Trypodendron borealis,NA,NA
+284,Trypodendron domesticum,Introduced,ambrosia beetle
+285,Trypodendron lineatum,Native,ambrosia beetle
+286,Trypodendron retusum,Native,ambrosia beetle
+287,Trypodendron rufitarsis,Native,ambrosia beetle
+288,Trypodendron scabricollis,Native,ambrosia beetle
+289,Trypophloeus populi,Native,bark beetle
+290,Trypophloeus salicis,Native,bark beetle
+291,Trypophloeus thatcheri,Native,bark beetle
+292,Wallacellus denticulus,NA,NA
+293,Xyleborinus andrewesi,Introduced,ambrosia beetle
+294,Xyleborinus artestriatus,Introduced,ambrosia beetle
+295,Xyleborinus attenuatus,Introduced,ambrosia beetle
+296,Xyleborinus gracilis,Native,ambrosia beetle
+297,Xyleborinus octiesdentatus,Introduced,ambrosia beetle
+298,Xyleborinus saxesenii,Introduced,ambrosia beetle
+299,Xyleborus affinis,Native,ambrosia beetle
+300,Xyleborus bispinatus,Introduced,ambrosia beetle
+301,Xyleborus celsus,Native,ambrosia beetle
+302,Xyleborus ferrugineus,Native,ambrosia beetle
+303,Xyleborus glabratus,Introduced,ambrosia beetle
+304,Xyleborus horridus,Native,ambrosia beetle
+305,Xyleborus impressus,Native,ambrosia beetle
+306,Xyleborus intrusus,Native,ambrosia beetle
+307,Xyleborus pfeili,Introduced,ambrosia beetle
+308,Xyleborus pubescens,Native,ambrosia beetle
+309,Xyleborus seriatus,Introduced,ambrosia beetle
+310,Xyleborus sp.,NA,NA
+311,Xyleborus viduus,Native,ambrosia beetle
+312,Xyleborus volvulus,Native,ambrosia beetle
+313,Xyleborus xylographus,Native,ambrosia beetle
+314,Xylechinus americanus,Native,bark beetle
+315,Xylechinus montanus,Native,bark beetle
+316,Xylosandrus amputatus,Introduced,ambrosia beetle
+317,Xylosandrus compactus,Introduced,ambrosia beetle
+318,Xylosandrus crassiusculus,Introduced,ambrosia beetle
+319,Xylosandrus germanus,Introduced,ambrosia beetle
+320,Xyloterinus politus,Native,ambrosia beetle

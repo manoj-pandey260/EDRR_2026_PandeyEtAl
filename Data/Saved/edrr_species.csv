@@ -1,0 +1,409 @@
+,PestScientificName,Taxa,Info
+1,Acanthocinus obsoletus,Cerambycidae,Complete
+2,Acanthocinus pusillus,Cerambycidae,Complete
+3,Aegomorphus modestus,Cerambycidae,Complete
+4,Allothenemus minutus,Scolytinae,Complete
+5,Alniphagus aspericollis,Scolytinae,Complete
+6,Ambrosiodmus devexulus,Scolytinae,Complete
+7,Ambrosiodmus lecontei,Scolytinae,Complete
+8,Ambrosiodmus minor,Scolytinae,Complete
+9,Ambrosiodmus obliquus,Scolytinae,Complete
+10,Ambrosiodmus rubricollis,Scolytinae,Complete
+11,Ambrosiodmus sp.,Scolytinae,Incomplete
+12,Ambrosiodmus tachygraphus,Scolytinae,Complete
+13,Ambrosiophilus atratus,Scolytinae,Complete
+14,Ambrosiophilus nodulosis,Scolytinae,Complete
+15,Ancylocera bicolor,Cerambycidae,Complete
+16,Anelaphus parallelus,Cerambycidae,Complete
+17,Anelaphus pumilus,Cerambycidae,Complete
+18,Anelaphus villosus,Cerambycidae,Complete
+19,Anisandrus dispar,Scolytinae,Complete
+20,Anisandrus maiche,Scolytinae,Complete
+21,Anisandrus obesus,Scolytinae,Complete
+22,Anisandrus sayi,Scolytinae,Complete
+23,Araptus,Scolytinae,Incomplete
+24,Asemum striatum,Cerambycidae,Complete
+25,Astyleiopus variegatus,Cerambycidae,Complete
+26,Ataxia crypta,Cerambycidae,Complete
+27,Cactopinus rhois,Scolytinae,Complete
+28,Callimoxys sanguinicollis,Cerambycidae,Complete
+29,Carphoborus andersoni,Scolytinae,Complete
+30,Carphoborus bifurcus,Scolytinae,Complete
+31,Carphoborus blaisdelli,Scolytinae,Complete
+32,Carphoborus ponderosae,Scolytinae,Complete
+33,Carphoborus simplex,Scolytinae,Complete
+34,Carphoborus sp,Scolytinae,Incomplete
+35,Carphoborus vandykei,Scolytinae,Complete
+36,Chaetophloeus heterodoxus,Scolytinae,Complete
+37,Chaetophloeus hystrix,Scolytinae,Complete
+38,Chaetophloeus penicillatus,Scolytinae,Complete
+39,Chramesus,Scolytinae,Incomplete
+40,Chramesus chapuisi,Scolytinae,Complete
+41,Chramesus hicoriae,Scolytinae,Complete
+42,Cladoctonus brevisetosus,Scolytinae,Complete
+43,Clytus ruricola,Cerambycidae,Complete
+44,Cnesinus strigicollis,Scolytinae,Complete
+45,Cnestus mutilatus,Scolytinae,Complete
+46,Coccotrypes,Scolytinae,Incomplete
+47,Coccotrypes  cyperi,Scolytinae,Complete
+48,Coccotrypes carpophagus,Scolytinae,Complete
+49,Coccotrypes dactyliperda,Scolytinae,Complete
+50,Conophthorus coniperda,Scolytinae,Complete
+51,Conophthorus ponderosae,Scolytinae,Complete
+52,Conophthorus radiatae,Scolytinae,Complete
+53,Conophthorus resinosae,Scolytinae,Complete
+54,Conophthorus sp.,Scolytinae,Incomplete
+55,Coptoborus bellus,Scolytinae,Complete
+56,Coptoborus pseudotenuis,Scolytinae,Complete
+57,Corthylus columbianus,Scolytinae,Complete
+58,Corthylus insularis,Scolytinae,Complete
+59,Corthylus papulans,Scolytinae,Complete
+60,Corthylus punctatissimus,Scolytinae,Complete
+61,Corthylus spinifer,Scolytinae,Complete
+62,Corthylus tuberculatus,Scolytinae,Complete
+63,Cryphalus,Scolytinae,Incomplete
+64,Cryphalus pubescens,Scolytinae,Complete
+65,Cryphalus ruficollis,Scolytinae,Complete
+66,Cryptocarenus heveae,Scolytinae,Complete
+67,Cryptocarenus seriatus,Scolytinae,Complete
+68,Cryptophorus verrucosus,Cerambycidae,Complete
+69,Crypturgus,Scolytinae,Incomplete
+70,Crypturgus alutaceus,Scolytinae,Complete
+71,Crypturgus borealis,Scolytinae,Complete
+72,Crypturgus pusillus,Scolytinae,Complete
+73,Curius dentatus,Cerambycidae,Complete
+74,Cyclorhipidion bodoanum,Scolytinae,Complete
+75,Cyclorhipidion distinguendum,Scolytinae,Complete
+76,Cyclorhipidion inarmatum,Scolytinae,Complete
+77,Cyclorhipidion pelliculosum,Scolytinae,Complete
+78,Cyclorhipidion fukiense,Scolytinae,Complete
+79,Cyrtophorus verrucosus,Cerambycidae,Complete
+80,Dactylotrypes longicollis,Scolytinae,Complete
+81,Dendrocranulus carbonarius,Scolytinae,Complete
+82,Dendrocranulus cucurbitae,Scolytinae,Complete
+83,Dendroctonus brevicomis,Scolytinae,Complete
+84,Dendroctonus frontalis,Scolytinae,Complete
+85,Dendroctonus murrayanae,Scolytinae,Complete
+86,Dendroctonus ponderosae,Scolytinae,Complete
+87,Dendroctonus pseudotsugae,Scolytinae,Complete
+88,Dendroctonus punctatus,Scolytinae,Complete
+89,Dendroctonus rufipennis,Scolytinae,Complete
+90,Dendroctonus simplex,Scolytinae,Complete
+91,Dendroctonus terebrans,Scolytinae,Complete
+92,Dendroctonus valens,Scolytinae,Complete
+93,Derobrachus brevicollis,Cerambycidae,Complete
+94,Dolurgus pumilus,Scolytinae,Complete
+95,Dryocoetes,Scolytinae,Incomplete
+96,Dryocoetes affaber,Scolytinae,Complete
+97,Dryocoetes autographus,Scolytinae,Complete
+98,Dryocoetes betulae,Scolytinae,Complete
+99,Dryocoetes caryi,Scolytinae,Complete
+100,Dryocoetes confusus,Scolytinae,Complete
+101,Dryocoetes granicollis,Scolytinae,Complete
+102,Dryoxylon onoharaense,Scolytinae,Complete
+103,Elaphidion mucronatum,Cerambycidae,Complete
+104,Euderces picipes,Cerambycidae,Complete
+105,Euderces pini,Cerambycidae,Complete
+106,Euwallacea denticulatus,Scolytinae,Complete
+107,Euwallacea fornicatus,Scolytinae,Complete
+108,Euwallacea interjectus,Scolytinae,Complete
+109,Euwallacea similis,Scolytinae,Complete
+110,Euwallacea validus,Scolytinae,Complete
+111,Evodinus monticola,Cerambycidae,Complete
+112,Gnathotrichus denticulatus,Scolytinae,Complete
+113,Gnathotrichus materiarius,Scolytinae,Complete
+114,Gnathotrichus nimifrons,Scolytinae,Complete
+115,Gnathotrichus pilosus,Scolytinae,Complete
+116,Gnathotrichus retusus,Scolytinae,Complete
+117,Gnathotrichus sulcatus,Scolytinae,Complete
+118,Guarotes cyanipennis,Cerambycidae,Complete
+119,Hylastes,Scolytinae,Incomplete
+120,Hylastes fulgidus,Scolytinae,Complete
+121,Hylastes gracilis,Scolytinae,Complete
+122,Hylastes longicollis,Scolytinae,Complete
+123,Hylastes macer,Scolytinae,Complete
+124,Hylastes nigrinus,Scolytinae,Complete
+125,Hylastes opacus,Scolytinae,Complete
+126,Hylastes porculus,Scolytinae,Complete
+127,Hylastes ruber,Scolytinae,Complete
+128,Hylastes salebrosus,Scolytinae,Complete
+129,Hylastes subopacus,Scolytinae,Complete
+130,Hylastes tenuis,Scolytinae,Complete
+131,Hylastinus obscurus,Scolytinae,Complete
+132,Hylesinus,Scolytinae,Incomplete
+133,Hylesinus aculeatus,Scolytinae,Complete
+134,Hylesinus californicus,Scolytinae,Complete
+135,Hylesinus criddlei,Scolytinae,Complete
+136,Hylesinus fasciatus,Scolytinae,Complete
+137,Hylesinus oregonus,Scolytinae,Complete
+138,Hylesinus pruinosus,Scolytinae,Complete
+139,Hylocurus,Scolytinae,Incomplete
+140,Hylocurus biconcavus,Scolytinae,Complete
+141,Hylocurus bicornus,Scolytinae,Complete
+142,Hylocurus binodatus,Scolytinae,Complete
+143,Hylocurus flaglerensis,Scolytinae,Complete
+144,Hylocurus harnedi,Scolytinae,Complete
+145,Hylocurus hirtellus,Scolytinae,Complete
+146,Hylocurus langstoni,Scolytinae,Complete
+147,Hylocurus rudis,Scolytinae,Complete
+148,Hylocurus schwarzi,Scolytinae,Complete
+149,Hylocurus spadix,Scolytinae,Complete
+150,Hylocurus torosus,Scolytinae,Complete
+151,Hylurgopinus rufipes,Scolytinae,Complete
+152,Hylurgops palliatus,Scolytinae,Complete
+153,Hylurgops pinifex,Scolytinae,Complete
+154,Hylurgops porosus,Scolytinae,Complete
+155,Hylurgops reticulatus,Scolytinae,Complete
+156,Hylurgops rugipennis,Scolytinae,Complete
+157,Hylurgops rugipennis pinifex,Scolytinae,Complete
+158,Hylurgops rugipennis rugipennis,Scolytinae,Complete
+159,Hylurgops subcostulatus,Scolytinae,Complete
+160,Hylurgus ligniperda,Scolytinae,Complete
+161,Hyperplatys maculata,Cerambycidae,Complete
+162,Hypocryphalus magniferae,Scolytinae,Complete
+163,Hypocryphalus sp.,Scolytinae,Incomplete
+164,Hypothenemus,Scolytinae,Incomplete
+165,Hypothenemus birmanus,Scolytinae,Complete
+166,Hypothenemus crudiae,Scolytinae,Complete
+167,Hypothenemus dissimilis,Scolytinae,Complete
+168,Hypothenemus erectus,Scolytinae,Complete
+169,Hypothenemus eruditus,Scolytinae,Complete
+170,Hypothenemus miles,Scolytinae,Complete
+171,Hypothenemus rotundicollis,Scolytinae,Complete
+172,Hypothenemus seriatus,Scolytinae,Complete
+173,Ips avulsus,Scolytinae,Complete
+174,Ips borealis,Scolytinae,Complete
+175,Ips borealis borealis,Scolytinae,Complete
+176,Ips borealis lanieri,Scolytinae,Complete
+177,Ips calligraphus,Scolytinae,Complete
+178,Ips confusus,Scolytinae,Complete
+179,Ips grandicollis,Scolytinae,Complete
+180,Ips hunteri,Scolytinae,Complete
+181,Ips integer,Scolytinae,Complete
+182,Ips montanus,Scolytinae,Complete
+183,Ips paraconfusus,Scolytinae,Complete
+184,Ips perroti,Scolytinae,Complete
+185,Ips perturbatus,Scolytinae,Complete
+186,Ips pilifrons pilifrons,Scolytinae,Complete
+187,Ips pilifrons utahensis,Scolytinae,Complete
+188,Ips pini,Scolytinae,Complete
+189,Ips plastographus,Scolytinae,Complete
+190,Ips tridens engelmanni,Scolytinae,Complete
+191,Ips tridens tridens,Scolytinae,Complete
+192,Judolia cordifera,Cerambycidae,Complete
+193,Knulliana cincta cincta,Cerambycidae,Complete
+194,Leptorhabdium pictum,Cerambycidae,Complete
+195,Leptostylus transversus,Cerambycidae,Complete
+196,Lepturges angulatus,Cerambycidae,Complete
+197,Lepturges confluens,Cerambycidae,Complete
+198,Liopinus alpha,Cerambycidae,Complete
+199,Lymantor decipiens,Scolytinae,Complete
+200,Megacyllene caryae,Cerambycidae,Complete
+201,Metacmaeops vittata,Cerambycidae,Complete
+202,Micracis,Scolytinae,Incomplete
+203,Micracis suturalis,Scolytinae,Complete
+204,Micracis swainei,Scolytinae,Complete
+205,Micracisella,Scolytinae,Incomplete
+206,Micracisella nanula,Scolytinae,Complete
+207,Micracisella opacicollis,Scolytinae,Complete
+208,Microborus lautus,Scolytinae,Complete
+209,Molorchus bimaculatus bimaculatus,Cerambycidae,Complete
+210,Molorchus bimaculatus semiustus,Cerambycidae,Complete
+211,Monarthrum dentigerum,Scolytinae,Complete
+212,Monarthrum fasciatum,Scolytinae,Complete
+213,Monarthrum mali,Scolytinae,Complete
+214,Monarthrum scutellare,Scolytinae,Complete
+215,Monochamus carolinensis,Cerambycidae,Complete
+216,Monochamus scutellatus,Cerambycidae,Complete
+217,Monochamus titillator,Cerambycidae,Complete
+218,Neoclytus acuminatus,Cerambycidae,Complete
+219,Neoclytus caprea,Cerambycidae,Complete
+220,Neoclytus mucronatus,Cerambycidae,Complete
+221,Neoclytus scutellaris,Cerambycidae,Complete
+222,Obrium maculatum,Cerambycidae,Complete
+223,Orthotomicus caelatus,Scolytinae,Complete
+224,Orthotomicus erosus,Scolytinae,Complete
+225,Orthotomicus latidens,Scolytinae,Complete
+226,Orthotomicus spinifer,Scolytinae,Complete
+227,Pachysquamus subcostulatus,Scolytinae,Complete
+228,Phloeosinus,Scolytinae,Incomplete
+229,Phloeosinus canadensis,Scolytinae,Complete
+230,Phloeosinus cristatus,Scolytinae,Complete
+231,Phloeosinus cupressi,Scolytinae,Complete
+232,Phloeosinus dentatus,Scolytinae,Complete
+233,Phloeosinus furnissi,Scolytinae,Complete
+234,Phloeosinus hoferi,Scolytinae,Complete
+235,Phloeosinus hoppingi,Scolytinae,Complete
+236,Phloeosinus pini,Scolytinae,Complete
+237,Phloeosinus punctatus,Scolytinae,Complete
+238,Phloeosinus scopulorum neomexicanus,Scolytinae,Complete
+239,Phloeosinus scopulorum s.str.,Scolytinae,Complete
+240,Phloeosinus sequoiae,Scolytinae,Complete
+241,Phloeosinus serratus,Scolytinae,Complete
+242,Phloeosinus taxodii taxodii,Scolytinae,Complete
+243,Phloeosinus vandykei,Scolytinae,Complete
+244,Phloeotribus,Scolytinae,Incomplete
+245,Phloeotribus dentifrons,Scolytinae,Complete
+246,Phloeotribus frontalis,Scolytinae,Complete
+247,Phloeotribus lecontei,Scolytinae,Complete
+248,Phloeotribus liminaris,Scolytinae,Complete
+249,Phloeotribus piceae,Scolytinae,Complete
+250,Phloeotribus texanus,Scolytinae,Complete
+251,Phymatodes aereus,Cerambycidae,Complete
+252,Phymatodes amoenus,Cerambycidae,Complete
+253,Phymatodes dimidiatum,Cerambycidae,Complete
+254,Pityoborus,Scolytinae,Incomplete
+255,Pityoborus comatus,Scolytinae,Complete
+256,Pityogenes,Scolytinae,Incomplete
+257,Pityogenes bidentatus,Scolytinae,Complete
+258,Pityogenes carinulatus,Scolytinae,Complete
+259,Pityogenes fossifrons,Scolytinae,Complete
+260,Pityogenes hopkinsi,Scolytinae,Complete
+261,Pityogenes kneckteli,Scolytinae,Complete
+262,Pityogenes meridianus,Scolytinae,Complete
+263,Pityogenes plagiatus,Scolytinae,Complete
+264,Pityokteines,Scolytinae,Incomplete
+265,Pityokteines elegans,Scolytinae,Complete
+266,Pityokteines minutus,Scolytinae,Complete
+267,Pityokteines ornatus,Scolytinae,Complete
+268,Pityokteines sparsus,Scolytinae,Complete
+269,Pityophthorus,Scolytinae,Incomplete
+270,Pityophthorus annectens,Scolytinae,Complete
+271,Pityophthorus arcanus,Scolytinae,Complete
+272,Pityophthorus cariniceps,Scolytinae,Complete
+273,Pityophthorus confusus,Scolytinae,Complete
+274,Pityophthorus consimilis,Scolytinae,Complete
+275,Pityophthorus crinalis,Scolytinae,Complete
+276,Pityophthorus juglandis,Scolytinae,Complete
+277,Pityophthorus lautus,Scolytinae,Complete
+278,Pityophthorus liquidambarus,Scolytinae,Complete
+279,Pityophthorus opaculus,Scolytinae,Complete
+280,Pityophthorus puberulus,Scolytinae,Complete
+281,Pityophthorus pulicarius,Scolytinae,Complete
+282,Pityophthorus pullus,Scolytinae,Complete
+283,Pityophthorus spp,Scolytinae,Incomplete
+284,Platypodinae,Platypodinae,Incomplete
+285,Plectromerus dentipes,Cerambycidae,Complete
+286,Polygraphus convexifrons,Scolytinae,Complete
+287,Polygraphus rufipennis,Scolytinae,Complete
+288,Premnobius cavipennis,Scolytinae,Complete
+289,Premnobius spp,Scolytinae,Incomplete
+290,Psenocerus supernotatus,Cerambycidae,Complete
+291,Pseudips concinnus,Scolytinae,Complete
+292,Pseudips mexicanus,Scolytinae,Complete
+293,Pseudohylesinus dispar,Scolytinae,Complete
+294,Pseudohylesinus granulatus,Scolytinae,Complete
+295,Pseudohylesinus nebulosus,Scolytinae,Complete
+296,Pseudohylesinus nebulosus nebulosus,Scolytinae,Complete
+297,Pseudohylesinus pini,Scolytinae,Complete
+298,Pseudohylesinus sericeus,Scolytinae,Complete
+299,Pseudohylesinus sitchensis,Scolytinae,Complete
+300,Pseudohylesinus tsugae,Scolytinae,Complete
+301,Pseudopityophthorus,Scolytinae,Incomplete
+302,Pseudopityophthorus agrifoliae,Scolytinae,Complete
+303,Pseudopityophthorus asperulus,Scolytinae,Complete
+304,Pseudopityophthorus fagi,Scolytinae,Complete
+305,Pseudopityophthorus minutissimus,Scolytinae,Complete
+306,Pseudopityophthorus pruinosus,Scolytinae,Complete
+307,Pseudopityophthorus pubipennis,Scolytinae,Complete
+308,Pseudothysanoes,Scolytinae,Incomplete
+309,Pseudothysanoes dislocatus,Scolytinae,Complete
+310,Pseudothysanoes rigidus,Scolytinae,Complete
+311,Ptilopodius sp.,Scolytinae,Incomplete
+312,Pycnarthrum hispidum,Scolytinae,Complete
+313,Rhagium inquisitor,Cerambycidae,Complete
+314,Saperda puncticollis,Cerambycidae,Complete
+315,Scierus annectens,Scolytinae,Complete
+316,Scierus pubescens,Scolytinae,Complete
+317,Scolytodes schwarzi,Scolytinae,Complete
+318,Scolytogenes jalapae,Scolytinae,Complete
+319,Scolytogenes sp.,Scolytinae,Incomplete
+320,Scolytus,Scolytinae,Incomplete
+321,Scolytus fagi,Scolytinae,Complete
+322,Scolytus laricis,Scolytinae,Complete
+323,Scolytus monticolae,Scolytinae,Complete
+324,Scolytus multistriatus,Scolytinae,Complete
+325,Scolytus muticus,Scolytinae,Complete
+326,Scolytus opacus,Scolytinae,Complete
+327,Scolytus oregoni,Scolytinae,Complete
+328,Scolytus piceae,Scolytinae,Complete
+329,Scolytus praeceps,Scolytinae,Complete
+330,Scolytus quadrispinosus,Scolytinae,Complete
+331,Scolytus reflexus,Scolytinae,Complete
+332,Scolytus robustus,Scolytinae,Complete
+333,Scolytus rugulosus,Scolytinae,Complete
+334,Scolytus schevyrewi,Scolytinae,Complete
+335,Scolytus tsugae,Scolytinae,Complete
+336,Scolytus unispinosus,Scolytinae,Complete
+337,Scolytus ventralis,Scolytinae,Complete
+338,Stenoclyptus sulcatus,Scolytinae,Complete
+339,Stenosphenus notatus,Cerambycidae,Complete
+340,Stevewoodia minutus,Scolytinae,Complete
+341,Strangalia famelica,Cerambycidae,Complete
+342,Strangalia luteicornis,Cerambycidae,Complete
+343,Tetropium,Cerambycidae,Incomplete
+344,Tetropium schwarzianum,Cerambycidae,Complete
+345,Tetropium sp A sensu S LaPlante,Cerambycidae,Complete
+346,Theoborus puertoricensis,Scolytinae,Complete
+347,Theoborus ricini,Scolytinae,Complete
+348,Thysanoes,Scolytinae,Incomplete
+349,Thysanoes fimbricornis,Scolytinae,Complete
+350,Tilloclytus geminatus,Cerambycidae,Complete
+351,Tomicus piniperda,Scolytinae,Complete
+352,Trachysida mutabilis,Cerambycidae,Complete
+353,Trigonarthris subpubescens,Cerambycidae,Complete
+354,Trischidias,Scolytinae,Incomplete
+355,Trischidias puertoricensis,Scolytinae,Complete
+356,Trypodendron,Scolytinae,Incomplete
+357,Trypodendron betulae,Scolytinae,Complete
+358,Trypodendron borealis,Scolytinae,Complete
+359,Trypodendron domesticum,Scolytinae,Complete
+360,Trypodendron lineatum,Scolytinae,Complete
+361,Trypodendron retusum,Scolytinae,Complete
+362,Trypodendron rufitarsis,Scolytinae,Complete
+363,Trypodendron scabricollis,Scolytinae,Complete
+364,Trypophloeus populi,Scolytinae,Complete
+365,Trypophloeus salicis,Scolytinae,Complete
+366,Trypophloeus thatcheri,Scolytinae,Complete
+367,Typocerus zebra,Cerambycidae,Complete
+368,Urgleptes signatus,Cerambycidae,Complete
+369,Urographis fasciatus,Cerambycidae,Complete
+370,Wallacellus denticulus,Scolytinae,Complete
+371,Xyleborinus andrewesi,Scolytinae,Complete
+372,Xyleborinus artestriatus,Scolytinae,Complete
+373,Xyleborinus attenuatus,Scolytinae,Complete
+374,Xyleborinus exiguus,Scolytinae,Complete
+375,Xyleborinus gracilis,Scolytinae,Complete
+376,Xyleborinus insulosus,Scolytinae,Complete
+377,Xyleborinus octiesdentatus,Scolytinae,Complete
+378,Xyleborinus saxesenii,Scolytinae,Complete
+379,Xyleborus affinis,Scolytinae,Complete
+380,Xyleborus bispinatus,Scolytinae,Complete
+381,Xyleborus celsus,Scolytinae,Complete
+382,Xyleborus ferrugineus,Scolytinae,Complete
+383,Xyleborus glabratus,Scolytinae,Complete
+384,Xyleborus horridus,Scolytinae,Complete
+385,Xyleborus impressus,Scolytinae,Complete
+386,Xyleborus intrusus,Scolytinae,Complete
+387,Xyleborus perforans,Scolytinae,Complete
+388,Xyleborus pfeili,Scolytinae,Complete
+389,Xyleborus positicus,Scolytinae,Complete
+390,Xyleborus pubescens,Scolytinae,Complete
+391,Xyleborus seriatus,Scolytinae,Complete
+392,Xyleborus simulatus,Scolytinae,Complete
+393,Xyleborus sp.,Scolytinae,Incomplete
+394,Xyleborus spinulosus,Scolytinae,Complete
+395,Xyleborus viduus,Scolytinae,Complete
+396,Xyleborus volvulus,Scolytinae,Complete
+397,Xyleborus xylographus,Scolytinae,Complete
+398,Xylechinus americanus,Scolytinae,Complete
+399,Xylechinus montanus,Scolytinae,Complete
+400,Xylosandrus amputatus,Scolytinae,Complete
+401,Xylosandrus compactus,Scolytinae,Complete
+402,Xylosandrus crassiusculus,Scolytinae,Complete
+403,Xylosandrus germanus,Scolytinae,Complete
+404,Xylosandrus morigerus,Scolytinae,Complete
+405,Xyloterinus politus,Scolytinae,Complete
+406,Xylotrechus  sagittatus,Cerambycidae,Complete
+407,Xylotrechus colonus,Cerambycidae,Complete
+408,Xylotrechus integer,Cerambycidae,Complete

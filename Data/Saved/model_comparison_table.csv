@@ -1,0 +1,9 @@
+Group,Model,AIC,?AIC
+Non-native Scolytine Abundance,Deciduous + Annual_Precipitation + Evergreen + Shannon_Div_Landscape +      POPDEN + Income_PerCapita + PortDist + LureName + (1 | TrapSite/TrapID) +      (1 | TrapYear) + (1 | Species) + (1 | Ecoregion3),106829.14,0
+,Minimum_Temperature + Annual_Precipitation + Evergreen +      Shannon_Div_Landscape + POPDEN + Income_PerCapita + PortDist +      LureName + (1 | TrapSite/TrapID) + (1 | TrapYear) + (1 |      Species) + (1 | Ecoregion3),106834.12,4.98
+Non-native Ambrosia Beetle Abundance,Deciduous + Annual_Precipitation + Evergreen + Shannon_Div_Landscape +      POPDEN + Income_PerCapita + PortDist + LureName + (1 | TrapSite/TrapID) +      (1 | Species) + (1 | TrapYear) + (1 | Ecoregion3),97615.96,0
+,Minimum_Temperature + Annual_Precipitation + Evergreen +      Shannon_Div_Landscape + POPDEN + Income_PerCapita + PortDist +      LureName + (1 | TrapSite/TrapID) + (1 | Species) + (1 | TrapYear) +      (1 | Ecoregion3),97621.71,5.75
+Non-native Ambrosia Beetle Richness,Deciduous + Annual_Precipitation + Evergreen +      Shannon_Div_Landscape + POPDEN + Income_PerCapita + PortDist +      LureName + (1 | TrapSite) + (1 | TrapYear) + (1 | Ecoregion3),12207.49,0
+,Minimum_Temperature + Annual_Precipitation + Evergreen +      Shannon_Div_Landscape + POPDEN + Income_PerCapita + PortDist +      LureName + (1 | TrapSite) + (1 | TrapYear) + (1 | Ecoregion3),12210.56,3.07
+Native Ambrosia Beetle Abundance,Deciduous + Annual_Precipitation + Evergreen + Shannon_Div_Landscape +      POPDEN + Income_PerCapita + PortDist + LureName + (1 | TrapSite/TrapID) +      (1 | Species) + (1 | TrapYear) + (1 | Ecoregion3),53196.66,0
+,Minimum_Temperature + Annual_Precipitation + Evergreen +      Shannon_Div_Landscape + POPDEN + Income_PerCapita + PortDist +      LureName + (1 | TrapSite/TrapID) + (1 | Species) + (1 | TrapYear) +      (1 | Ecoregion3),53215.08,18.42

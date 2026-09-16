@@ -1,0 +1,9 @@
+Variable,Description,Unit,Mean ± SD,Range
+Annual Precipitation,Cumulative annual precipitation,mm,1124.66 ± 451.15,77.09 to 2613.66
+Minimum Winter Temperature,Mean minimum temperature of the winter months,°C,0.51 ± 7.29,-19 to 19.72
+Evergreen Forest,Percentage of evergreen forest,Percentage,10.96 ± 18.66,0 to 95.28
+Deciduous Forest,Percentage of deciduous forest,Percentage,13.34 ± 21.23,0 to 95.71
+Shannon's Diversity Index,Proportional abundance of landcover classes,Unitless,1.53 ± 0.38,0.01 to 2.34
+Human Population Density,Percentage of human population,Persons/km2,344.24 ± 853.55,0 to 12054.17
+Per Capita Income,Percentage of per capita,$,31824.55 ± 16839.1,6743.54 to 190163.16
+Proximity to Port,Distance to nearest port,km ,167.98 ± 256.33,0 to 1283.54
