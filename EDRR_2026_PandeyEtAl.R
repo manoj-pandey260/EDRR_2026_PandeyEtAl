@@ -1916,7 +1916,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
     plot1 <- ggplot(Abundance_overallEDRR, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -2071,7 +2071,7 @@ AIC(m1, m1_allPorts)
                              "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                              "POPDEN" = "Human Population Density",
                              "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
     )) 
   
   
@@ -2456,7 +2456,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_nn_abd <- ggplot(Abundance_nonnative, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -2593,7 +2593,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_nn_ric <- ggplot(Richness_nonnative, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -2825,7 +2825,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    
 
@@ -3025,7 +3025,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income", 
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_nn_ambrosia_ric <- ggplot(Richness_nonnative_ambrosia, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -3213,7 +3213,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_nn_bark_abd <- ggplot(Abundance_nonnative_bark, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -3358,7 +3358,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_nn_bark_ric <- ggplot(Richness_nonnative_bark, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -3531,7 +3531,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    
    plot_na_abd <- ggplot(Abundance_native, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
@@ -3656,7 +3656,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_na_ric <- ggplot(Richness_native, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -3898,7 +3898,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_na_ambrosia_abd <- ggplot(Abundance_native_ambrosia, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -4023,7 +4023,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_na_ambrosia_ric <- ggplot(Richness_native_ambrosia, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -4195,7 +4195,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_na_bark_abd <- ggplot(Abundance_native_bark, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
@@ -4321,7 +4321,7 @@ AIC(m1, m1_allPorts)
                               "Shannon_Div_Landscape" = "Shannon's Diversity (Landscape)",
                               "POPDEN" = "Human Population Density",
                               "Income_PerCapita" = "Per Capita Income",
-                              "PortDist" = "Distance to Port"
+                              "PortDist" = "Distance from Port"
      ))
    plot_na_bark_ric <- ggplot(Richness_native_bark, aes(x = Estimate, y = fct_rev(Variable) , color = Type)) +
      geom_point(aes(shape=Significant),size = 5,  stroke=1.5, fill="white") +
