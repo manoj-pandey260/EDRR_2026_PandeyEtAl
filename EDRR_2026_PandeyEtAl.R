@@ -65,6 +65,7 @@ library(tibble)
 
 writeLines(toBibtex(citation("DHARMa")), "DHARMa.bib")
 
+
  
 # ---- Cleaning the EDRR dataset ----
 
@@ -1665,7 +1666,9 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
       aes(label = Value),
       position = position_dodge(width = 0.85),
       vjust = -0.3,
+      hjust = -0.1,
       size = 4.5,
+      angle = 45, 
       color = "black"
     ) +
     
