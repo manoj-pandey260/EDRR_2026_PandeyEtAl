@@ -1,9 +1,7 @@
 
-# ---- Header ----
+
 # title: "Optimizing trap deployment for the detection of non-native scolytines"
 # author: Manoj Pandey
-# output: word_document
-# date: "February 04, 2025"
 
 
 # ---- Libraries ----
@@ -254,7 +252,11 @@ writeLines(toBibtex(citation("DHARMa")), "DHARMa.bib")
 
 # ---- Ecoregions ----
   
-  ecoregions<-st_read("Data/Raw/us_eco_l3_state_boundaries.shp")
+  ## Link to download Ecoregions data -->  https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states
+     ## Level III Ecoregions Downloads --> GIS data
+        ## US Level III Ecoregions shapefile with state boundaries 
+  
+ ecoregions<-st_read("Data/Raw/us_eco_l3_state_boundaries.shp")
  unique(ecoregions$NA_L3NAME)
  unique(ecoregions$US_L3NAME)
  unique(ecoregions$US_L3CODE)
@@ -1508,12 +1510,7 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
     edrr$Ecoregion3<- as.factor(edrr$Ecoregion3)
     edrr$TrapSite<- as.factor(edrr$TrapSite)
     
-    # outlier1 <- edrr[which(edrr$TrapID == "5080"),]
-    # outlier2 <- edrr[which(edrr$TrapID == "4865"),]
-    
-    
-    # edrr <- edrr[edrr$TrapID != "5080", ]
-    # edrr <- edrr[edrr$TrapID != "4865", ]
+  
     levels(edrr$LureName)
     table(edrr$LureName)
     
@@ -1547,7 +1544,6 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
     length(unique(edrr$SiteType))
     
 
-    
     
 ###################################################
 ###################################################
@@ -1649,7 +1645,7 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
   
   
 
-# ---- Grouped Bar ----
+## ---- Grouped Bar ----
   p_combined <- ggplot(
     sum_long,
     aes(x = Origin, y = Value, fill = Guild)
@@ -4509,12 +4505,7 @@ AIC(m1, m1_allPorts)
    
 
   
-   
-   
-
-
-   
-   
+  
    
 # ---- Abundance table for model averages ----
   
@@ -4602,8 +4593,6 @@ AIC(m1, m1_allPorts)
   Richness_modavg <- process_richness("Data/Saved/Richness_modavg.csv","All Scolytines")
    
   Richness_nonnative_modavg <- process_richness("Data/Saved/Richness_nonnative_modavg.csv","Non-native Scolytines")
-   
- 
    
   Richness_nonnativeBark_modavg <- process_richness("Data/Saved/Richness_nonnativeBark_modavg.csv","Non-native Bark Beetles")
    
