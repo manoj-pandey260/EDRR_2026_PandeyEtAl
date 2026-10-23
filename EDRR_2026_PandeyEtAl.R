@@ -1,6 +1,6 @@
 
 
-# title: "Optimizing trap deployment for the detection of non-native scolytines"
+# title: "Decision support for deploying forest biosecurity traps: Environmental and anthropogenic factors shape scolytine catches"
 # author: Manoj Pandey
 
 
@@ -8,60 +8,30 @@
 library(dplyr) 
 library(ggplot2)
 library(forcats)
-library(car) 
 library(sf)
-library(sp)
-library(ggspatial)
-library(RColorBrewer)
-library(FedData)
 library(raster)
 library(terra)
-library(base)
-library(tidyr)#
-library(tmap)
+library(tidyr)
 library(devtools)
 library(prism)
-library(reshape2)
-library(rmarkdown)
-library(knitr)
-library(DT)
-library(data.table)
-library(purrr)
 library(stringr)
-library(vegan)
 library(landscapemetrics)
 library(exactextractr)
-library(parallel)
-library(data.table)
 library(tigris)
 library(tidycensus)
-library(units)
-library(lme4)
 library(usmap)
 library(maps)
 library(corrplot)
-library(GGally)
 library(pbapply)
 library(ggmap)
 library(USA.state.boundaries)
-library(furrr)
-library(progressr)
-library(qs)
-library(ggtext)
 library(MuMIn)
 library(broom.mixed)
 library(glmmTMB)
 library(DHARMa)
-library(emdi)
-library(performance)
 library(lubridate)
-library(viridis)
-library(scales)
-library(ggpubr)
 library(patchwork)
 library(tibble)
-
-writeLines(toBibtex(citation("DHARMa")), "DHARMa.bib")
 
 
  
@@ -142,9 +112,9 @@ writeLines(toBibtex(citation("DHARMa")), "DHARMa.bib")
   length(unique(edrr_Cerambycidae$PestScientificName))  # 63
 
 
-  write.csv(edrr_taxa_info,"Data/Saved/edrr_taxa_info.csv", row.names = FALSE)
-  #
-  write.csv(edrr_Scolytinae,"Data/Saved/edrr_Scolytinae.csv", row.names = FALSE)
+  # write.csv(edrr_taxa_info,"Data/Saved/edrr_taxa_info.csv", row.names = FALSE)
+  # #
+  # write.csv(edrr_Scolytinae,"Data/Saved/edrr_Scolytinae.csv", row.names = FALSE)
 
 #### edrr_taxa_info is the cleaned EDRR dataset with taxa information
 #### edrr_Scolytinae is the edrr_taxa_info with Scolytines only
@@ -184,7 +154,7 @@ writeLines(toBibtex(citation("DHARMa")), "DHARMa.bib")
   length(unique(edrr_Scolytinae$Species))  # 344
   
 # ---- NLCD Land cover ----
- 
+ library(sf)
   ## Link to download Annual NLCD -->  https://www.mrlc.gov/data?f%5B0%5D=project_tax_term_term_parents_tax_term_name%3AAnnual%20NLCD  
     # Project --> Annual NLCD
        # Products --> Land Cover
@@ -559,7 +529,7 @@ writeLines(toBibtex(citation("DHARMa")), "DHARMa.bib")
    ggsave("Plots/landcover_distribution_1.jpg", plot = plot_b, width = 8, height = 6, dpi = 600)
   
 # ---- Socio-economic variables ----
-  
+  library(tidycensus)
 edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep=",", stringsAsFactors=FALSE, na.strings="", strip.white = T) 
   # Census API key
   #census_api_key("YOUR_API_KEY_HERE", install = TRUE)
@@ -663,6 +633,8 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
   
  
 # ---- PRISM 800m ----
+  
+  library(prism)
   edrr<-read.csv(file="Data/Saved/edrr_landscapemetrics_pop_income.csv", header=TRUE, sep=",", stringsAsFactors=FALSE, na.strings="", strip.white = T) 
  
   prism_set_dl_dir("Data/Processed/prism_monthlys")
@@ -816,71 +788,71 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
   
   close(pb)
   
-  write.csv(edrr, "Data/saved/edrr_predictors.csv", row.names = FALSE)
+  # write.csv(edrr, "Data/saved/edrr_predictors.csv", row.names = FALSE)
   
 # ---- Extracting Centroids as Cells ----
-  edrr<-read.csv(file="Data/Saved/edrr_predictors.csv", header=TRUE, sep=",", stringsAsFactors=FALSE, na.strings="", strip.white = T) 
-  
-   prism_set_dl_dir("Data/Raw/prism_4km")
-   
-   get_prism_dailys(
-     type = "tmin", 
-     minDate = "2010-01-01", 
-     maxDate = "2010-01-02", 
-     resolution = "4km" 
-   )
-  my_dates <- seq(as.Date("2010-01-01"), as.Date("2010-01-02"), 1 )
-  i <- 1
-  prism_raster <- pd_stack(prism_archive_subset("tmin", 
-                                                minDate = my_dates[i], maxDate = my_dates[i], 
-                                                temp_period = "daily", resolution = "4km"))[[1]]
-  
-  
-  
-  edrr_sf <- st_as_sf(edrr, coords = c("Longitude", "Latitude"), crs = crs(prism_raster))
-  crs(edrr_sf)
-  crs(prism_raster)
-  
-  
-  ## Cell numbers for each point
-  cell_num <- cellFromXY(prism_raster, st_coordinates(edrr_sf))
-  
-  ## Centroids of those cells
-  centroids <- xyFromCell(prism_raster, cell_num)
-  
-  # Add centroids as new columns to your data
-  edrr$centroid_lon <- centroids[,1]
-  edrr$centroid_lat <- centroids[,2]
-  
-  
-  # For all rows:
-  edrr$Cell <- apply(centroids, 1, function(x) paste0("POINT(", x[1], " ", x[2], ")"))
-  
-  edrr1 <- edrr %>%
-    group_by(Cell) %>%
-    arrange(Cell, .by_group = TRUE)
-  
-  edrr$Cell<- as.factor(edrr$Cell)
-  length(unique(edrr$Cell)) #755
-  length(unique(edrr$TrapSite)) #2257
-  
-  str(edrr$Cell)
-  unique_Cell_ID<-edrr %>%
-    distinct(Cell) %>%
-    mutate(Cell_ID=paste0("Cell", row_number()))
-  
-  
-  edrr<- edrr %>%
-    left_join(unique_Cell_ID, by="Cell")
-  
-  edrr_Cell1<-edrr[which(edrr$Cell_ID=="Cell1"),]
-  table(edrr_Cell1$TrapID)
-  edrr<-edrr[, -c(36:38)]
-  write.csv(edrr, "Data/saved/edrr_predictors_cell.csv", row.names = FALSE)
-  
-  
-  
-  
+  # edrr<-read.csv(file="Data/Saved/edrr_predictors.csv", header=TRUE, sep=",", stringsAsFactors=FALSE, na.strings="", strip.white = T) 
+  # 
+  #  prism_set_dl_dir("Data/Raw/prism_4km")
+  #  
+  #  get_prism_dailys(
+  #    type = "tmin", 
+  #    minDate = "2010-01-01", 
+  #    maxDate = "2010-01-02", 
+  #    resolution = "4km" 
+  #  )
+  # my_dates <- seq(as.Date("2010-01-01"), as.Date("2010-01-02"), 1 )
+  # i <- 1
+  # prism_raster <- pd_stack(prism_archive_subset("tmin", 
+  #                                               minDate = my_dates[i], maxDate = my_dates[i], 
+  #                                               temp_period = "daily", resolution = "4km"))[[1]]
+  # 
+  # 
+  # 
+  # edrr_sf <- st_as_sf(edrr, coords = c("Longitude", "Latitude"), crs = crs(prism_raster))
+  # crs(edrr_sf)
+  # crs(prism_raster)
+  # 
+  # 
+  # ## Cell numbers for each point
+  # cell_num <- cellFromXY(prism_raster, st_coordinates(edrr_sf))
+  # 
+  # ## Centroids of those cells
+  # centroids <- xyFromCell(prism_raster, cell_num)
+  # 
+  # # Add centroids as new columns to your data
+  # edrr$centroid_lon <- centroids[,1]
+  # edrr$centroid_lat <- centroids[,2]
+  # 
+  # 
+  # # For all rows:
+  # edrr$Cell <- apply(centroids, 1, function(x) paste0("POINT(", x[1], " ", x[2], ")"))
+  # 
+  # edrr1 <- edrr %>%
+  #   group_by(Cell) %>%
+  #   arrange(Cell, .by_group = TRUE)
+  # 
+  # edrr$Cell<- as.factor(edrr$Cell)
+  # length(unique(edrr$Cell)) #755
+  # length(unique(edrr$TrapSite)) #2257
+  # 
+  # str(edrr$Cell)
+  # unique_Cell_ID<-edrr %>%
+  #   distinct(Cell) %>%
+  #   mutate(Cell_ID=paste0("Cell", row_number()))
+  # 
+  # 
+  # edrr<- edrr %>%
+  #   left_join(unique_Cell_ID, by="Cell")
+  # 
+  # edrr_Cell1<-edrr[which(edrr$Cell_ID=="Cell1"),]
+  # table(edrr_Cell1$TrapID)
+  # edrr<-edrr[, -c(36:38)]
+  # write.csv(edrr, "Data/saved/edrr_predictors_cell.csv", row.names = FALSE)
+  # 
+  # 
+  # 
+  # 
   
   
   
@@ -1076,7 +1048,7 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
   
   sco_species$Species.status[sco_species$Species %in% c("Cryptocarenus heveae", "Monarthrum fasciatum", "Pityophthorus juglandis", "Xyloterinus politus")] <- "Native"
  
-  write.csv(sco_species, "Data/Saved/species_nativity.csv", row.names = FALSE)
+  # write.csv(sco_species, "Data/Saved/species_nativity.csv", row.names = FALSE)
   sco_species<-read.csv(file="Data/Saved/species_nativity.csv", header=TRUE, sep=",", stringsAsFactors=FALSE, na.strings="", strip.white = T) 
   table(sco_species$Species.status)
   
@@ -1138,7 +1110,7 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
   
   # repeat_1<- as.data.frame(table(sco_species$Species))
   # count<-as.data.frame(table(repeat_1$Freq))
-# ---- Dataset "Beetles of North America ----
+# ---- Dataset "Beetles of North America" ----
   
   bna<-read.csv(file="Data/Processed/bna.csv", header=TRUE, sep=",", stringsAsFactors=FALSE, na.strings="", strip.white = T) # Dataset "Beetles of North America" or bna
   hostfamilies<-as.data.frame(unique(bna$Host.family))
@@ -1289,7 +1261,7 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
   
   
   
-  write.csv(edrr_traits, "Data/Saved/edrr_predictors_and_traits.csv", row.names = FALSE)
+  # write.csv(edrr_traits, "Data/Saved/edrr_predictors_and_traits.csv", row.names = FALSE)
   
   
   
@@ -1336,15 +1308,15 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
 ###### All ports #### 
 
   
-  nearest_port_all <- st_nearest_feature(edrr_sf, ports_sf)
-  
-  edrr_sf$nearest_port_all <- ports_sf$PORTNAME[nearest_port_all]
-  
-  edrr_sf$nearest_port_type_all <- ports_sf$TYPE[nearest_port_all]
-  
-  edrr_sf$dist_port_km_all <- as.numeric(st_distance(edrr_sf,ports_sf[nearest_port_all, ],by_element = TRUE)) / 1000
-  
-  
+  # nearest_port_all <- st_nearest_feature(edrr_sf, ports_sf)
+  # 
+  # edrr_sf$nearest_port_all <- ports_sf$PORTNAME[nearest_port_all]
+  # 
+  # edrr_sf$nearest_port_type_all <- ports_sf$TYPE[nearest_port_all]
+  # 
+  # edrr_sf$dist_port_km_all <- as.numeric(st_distance(edrr_sf,ports_sf[nearest_port_all, ],by_element = TRUE)) / 1000
+  # 
+  # 
   # albany <- ports_sf[ports_sf$PORTNAME == "Albany Port District, NY", ]
   # plot(albany$geometry)
   # 
@@ -1588,65 +1560,10 @@ edrr<-read.csv(file="Data/Saved/edrr_landscape_metrices.csv", header=TRUE, sep="
     mutate(Origin=dplyr::recode(Origin, "Introduced" = "Non-native"))
   
   
-  
-  
-  
-  p_combined <- ggplot(sum_long, aes(x = Origin, y = Value, fill = Guild)) +
-    geom_col(width = 0.7, color = "gray20") +
-    # Centered labels inside each stacked segment; hide zeros
-    geom_text(
-      data = subset(sum_long, Value > 0),
-      aes(label = Value),                # or label = comma(Value) if using scales
-      position = position_stack(vjust = 0.5),
-      color = "black",
-      size = 3.5
-    ) +
-    scale_fill_manual(values = c("Ambrosia beetle" = "#D0F0C0", "Bark beetle" = "lightblue",
-                                 "Twig beetle" = "#1B9E77","Others" = "grey90")) +
-    labs(
-      title = "",
-      x = NULL,
-      y = NULL,
-      fill = "Guild"
-    ) +
-    
-    # Facet: two panels (Abundance / Richness)
-    ggh4x::facet_wrap2(~ Metric, scales = "free_y") +
-    # Give EACH facet its own y-scale formatting
-    ggh4x::facetted_pos_scales(
-      y = list(
-        Metric == "Abundance" ~ scale_y_continuous(labels = label_number(big.mark = ","),  
-                                                   expand = expansion(mult = c(0, 0.1))),
-        Metric == "Richness"  ~ scale_y_continuous(labels = label_number(accuracy = 1),  
-                                                   expand = expansion(mult = c(0, 0.1)))
-      )
-    ) +
-    theme_minimal(base_size = 12) +
-    theme(
-      panel.grid.major.x = element_blank(),
-      legend.position = "right",
-      # ⬇️ "Think box" style: outline around facet strip labels
-      strip.background = element_rect(color = "black", fill = "grey75", linewidth = 0.8),
-      strip.text = element_text(face = "bold", size = 12),
-      # ⬇️ Bigger x-axis labels
-      axis.text.x = element_text(size = 14, face = "bold")
-    )
-  
-  
-  p_combined
-  
-  str(sum_by)
-  sum_by$Abundance <- as.numeric(sum_by$Abundance)
-  sum(sum_by$Abundance, na.rm = TRUE)
-  
-  sum(edrr$PestCount, na.rm = TRUE)
-  
-  ggsave("../Plots/summaryplot.jpg", plot = p_combined, width = 10, height = 8, dpi = 600)
-  
-  
 
 ## ---- Grouped Bar ----
-  p_combined <- ggplot(
+  library(scales)
+   p_combined <- ggplot(
     sum_long,
     aes(x = Origin, y = Value, fill = Guild)
   ) +
@@ -1781,10 +1698,10 @@ library(tidyverse)
   
   
   
-  write.csv(edrr_abundance, "Data/Saved/edrr_abundance.csv", row.names = FALSE)
-  write.csv(edrr_richness, "Data/Saved/edrr_richness.csv", row.names = FALSE)
-
-  
+  # write.csv(edrr_abundance, "Data/Saved/edrr_abundance.csv", row.names = FALSE)
+  # write.csv(edrr_richness, "Data/Saved/edrr_richness.csv", row.names = FALSE)
+  # 
+  # 
   
   mean(edrr_abundance$count)
   var(edrr_abundance$count)
@@ -4605,15 +4522,7 @@ AIC(m1, m1_allPorts)
   Richness_nonnativeAmbrosia_modavg <- process_richness("Data/Saved/Richness_nonnativeAmbrosia_modavg.csv","Non-native Ambrosia Beetles")
   
  
-  
-  #  Richness_nonnativeAmbrosia_modavg <- read.csv("Data/Saved/Richness_nonnativeAmbrosia_modavg.csv")
-  # 
-  # 
-  # Richness_nonnativeAmbrosia_modavg$Variable <- gsub("cond\\((.*)\\)", "\\1", Richness_nonnativeAmbrosia_modavg$Variable)
-  # Richness_nonnativeAmbrosia_modavg <- Richness_nonnativeAmbrosia_modavg[, -1]
-  # Richness_nonnativeAmbrosia_modavg <- Richness_nonnativeAmbrosia_modavg %>% relocate(7)
-  # Richness_nonnativeAmbrosia_modavg <- data.frame(Group = c("Non-native Ambrosia Beetles", rep("", nrow(Richness_nonnativeAmbrosia_modavg) - 1)),Richness_nonnativeAmbrosia_modavg)
-  # Richness_nonnativeAmbrosia_modavg <- Richness_nonnativeAmbrosia_modavg %>% arrange(Variable)
+ 
    
    combined_richness_table <- rbind(Richness_modavg,
                                     Richness_native_modavg, Richness_nonnative_modavg, 
