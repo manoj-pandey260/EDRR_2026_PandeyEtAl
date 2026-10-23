@@ -1,7 +1,7 @@
 
 
 # title: "Decision support for deploying forest biosecurity traps: Environmental and anthropogenic factors shape scolytine catches"
-# author: Manoj Pandey
+# authors: Manoj Pandey, Kayla I Perry, Samuel F Ward
 
 
 # ---- Libraries ----
